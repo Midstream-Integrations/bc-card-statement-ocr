@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "BC sandbox",
+      "request": "launch",
+      "type": "al",
+      "environmentType": "Sandbox",
+      "environmentName": "<your-sandbox>",
+      "tenant": "<your-tenant-id>",
+      "startupObjectId": 22,
+      "startupObjectType": "Page",
+      "breakOnError": "All",
+      "launchBrowser": true
+    }
+  ]
+}

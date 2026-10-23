@@ -1,0 +1,46 @@
+{
+  "id": "bf68e615-6d09-4e54-ba78-ef69e883e9fb",
+  "name": "Card Statement OCR and Requisition Approval",
+  "publisher": "Midstream Integrations",
+  "version": "1.0.3.0",
+  "brief": "Send a card statement to an OCR service, let managers attach receipts and G/L coding in a web portal, and turn their submission into purchase invoice lines with a signed requisition form.",
+  "description": "Send a card statement to an OCR service, let managers attach receipts and G/L coding in a web portal, and turn their submission into purchase invoice lines with a signed requisition form.",
+  "privacyStatement": "https://github.com/Midstream-Integrations/bc-card-statement-ocr/blob/main/PRIVACY.md",
+  "EULA": "https://github.com/Midstream-Integrations/bc-card-statement-ocr/blob/main/LICENSE",
+  "help": "https://github.com/Midstream-Integrations/bc-card-statement-ocr#readme",
+  "url": "https://github.com/Midstream-Integrations/bc-card-statement-ocr",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "437dbf0e-84ff-417a-965d-ed2bb9650972",
+      "name": "Base Application",
+      "publisher": "Microsoft",
+      "version": "25.0.0.0"
+    },
+    {
+      "id": "63ca2fa4-4f03-4f2b-a480-172fef340d3f",
+      "name": "System Application",
+      "publisher": "Microsoft",
+      "version": "25.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "25.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "14.0",
+  "features": [
+    "NoImplicitWith",
+    "TranslationFile"
+  ]
+}
