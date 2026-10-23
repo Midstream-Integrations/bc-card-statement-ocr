@@ -74,7 +74,7 @@ Always test in a sandbox before you install in production.
 ## Need help with this app?
 
 [Midstream Integrations](https://www.MidstreamIntegrations.com) installs, adapts and supports these extensions, and builds new ones for your process.
-**[Book a 20-minute call](https://midstreamintegrations.com/book)** · intro@MidstreamIntegrations.com
+**[Book a 20-minute call](https://midstreamintegrations.com/contact)** · intro@MidstreamIntegrations.com
 
 ## Contributing
 
