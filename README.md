@@ -42,6 +42,7 @@ The BC extension in this repo is one half. The other half is the **OCR and porta
 2. **Requisition Managers** page: add each approver's name and email.
 3. In Microsoft Entra ID, register an app for the server and add it to BC's **Microsoft Entra Applications** page with the `MID OCR USER` and `D365 PURCH DOC, EDIT` permission sets, so the server can post submissions back.
 4. Assign `MID OCR USER` to AP users and `MID ENDPOINT SETUP` to admins.
+5. **Email Accounts**: set a default account. BC sends the card statement email to the manager through it. Use the **Microsoft 365** or **Current User** connector, or **SMTP** with **OAuth 2.0**. SMTP with a Microsoft 365 password stops working when Microsoft turns off password authentication for SMTP AUTH (off by default from the end of December 2026).
 
 Supported card issuers depend on the parsers in your OCR server (Huntington and U.S. Bank business cards today). BC sends every statement as **Credit Card Merchant**, and the server recognizes the issuer from the PDF, so adding a parser to the server needs no change in BC.
 
