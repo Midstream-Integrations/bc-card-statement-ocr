@@ -7,6 +7,8 @@
 <!-- DEMO: record a 30-60 second screen capture, save it as docs/images/demo.gif, then replace this comment with:
 ![Demo](docs/images/demo.gif) -->
 
+> **Free and open source.** Want it installed, hosted or changed to fit your process? [Midstream Integrations](https://www.MidstreamIntegrations.com) does that. [Book a 20-minute call](https://midstreamintegrations.com/contact).
+
 ## Why
 
 Card statements are where accounts payable time disappears. Someone chases every cardholder for receipts, someone else types every charge into Business Central, and the G/L coding is a best guess. The people who know what each charge was for (managers and cardholders) usually don't work in BC at all.
@@ -71,9 +73,14 @@ Always test in a sandbox before you install in production.
 | Permission set(s) | `MID OCR USER`, `MID CARD STMT`, `MID ENDPOINT SETUP` |
 | Business Central | Online, version 25 or later |
 
-## Need help with this app?
+## Need help, or something this doesn't do?
 
-[Midstream Integrations](https://www.MidstreamIntegrations.com) installs, adapts and supports these extensions, and builds new ones for your process.
+[Midstream Integrations](https://www.MidstreamIntegrations.com) builds and supports Business Central extensions and integrations. We can:
+
+- install and set up this app in your tenant and show your team how to use it
+- change it to fit your process: fields, reports, layouts, approval rules
+- build the integration you actually need: APIs, EDI, OCR, Python services, and connections between Business Central and the other systems you run
+
 **[Book a 20-minute call](https://midstreamintegrations.com/contact)** · intro@MidstreamIntegrations.com
 
 ## Contributing
